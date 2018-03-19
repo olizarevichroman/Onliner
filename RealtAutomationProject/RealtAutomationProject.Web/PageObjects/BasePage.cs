@@ -29,6 +29,11 @@ namespace RealtAutomationProject.Web.PageObjects
       this.locator = locator;
     }
 
+    public BasePage(IWebElement container)
+    {
+      this.container = container;
+    }
+
     public bool IsDisplayed
     {
       get

@@ -15,5 +15,5 @@ Scenario Outline: User found mobile phone by mark
 
 	Examples: 
 	| mark    |
-	| IPhone  |
+	| iPhone  |
 	| Samsung |

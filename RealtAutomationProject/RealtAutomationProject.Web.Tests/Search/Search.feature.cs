@@ -68,7 +68,7 @@ namespace RealtAutomationProject.Web.Tests.Search
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("User found mobile phone by mark")]
-        [NUnit.Framework.TestCaseAttribute("IPhone", null)]
+        [NUnit.Framework.TestCaseAttribute("iPhone", null)]
         [NUnit.Framework.TestCaseAttribute("Samsung", null)]
         public virtual void UserFoundMobilePhoneByMark(string mark, string[] exampleTags)
         {

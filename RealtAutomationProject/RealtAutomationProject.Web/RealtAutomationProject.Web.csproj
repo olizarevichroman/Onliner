@@ -54,6 +54,7 @@
     <Compile Include="Controls\Button.cs" />
     <Compile Include="Controls\BaseElement.cs" />
     <Compile Include="Controls\Frame.cs" />
+    <Compile Include="Controls\Link.cs" />
     <Compile Include="Controls\TextBox.cs" />
     <Compile Include="Interfaces\IClickable.cs" />
     <Compile Include="Interfaces\IState.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="PageObjects\FastSearch.cs" />
     <Compile Include="PageObjects\SearchFrame.cs" />
     <Compile Include="PageObjects\BasePage.cs" />
+    <Compile Include="PageObjects\SearchResultItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

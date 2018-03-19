@@ -3,6 +3,7 @@ using RealtAutomationProject.Web.BusinessObjects;
 using RealtAutomationProject.Web.PageElements;
 using RealtAutomationProject.Web.Tests.Pages;
 using TechTalk.SpecFlow;
+using System;
 
 namespace RealtAutomationProject.Web.Tests.Search
 {
@@ -46,7 +47,10 @@ namespace RealtAutomationProject.Web.Tests.Search
     [Then(@"the first 10 devises is (.*)")]
     public void ThenThe10FirstDevisesIsIPhone(string mark)
     {
-
+      foreach(var result in searchFrame.SearchResults)
+      {
+        Assert.IsTrue(result.TitleLink.Text.Contains(mark));
+      }
     }
   }
 }

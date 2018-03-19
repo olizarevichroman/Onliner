@@ -8,11 +8,17 @@ using System.Threading.Tasks;
 
 namespace RealtAutomationProject.Web.Controls
 {
-    public class Frame : BaseElement
+  public class Frame : BaseElement
+  {
+    public Frame(By locator) : base(locator)
     {
-        public Frame(By locator) : base(locator)
-        {
             
-        }
     }
+
+    public Frame(IWebElement element) : base(element)
+    {
+
+    }
+
+  }
 }
